@@ -34,10 +34,8 @@ foreach my $bp (@bioprojects) {
     my $cmd = "esearch -db assembly -query $bp | efetch -format docsum | \
        	    xtract -pattern DocumentSummary -element $elements_string";
     warn "$cmd\n";
-    my $result = `$cmd`;
-    
-    my @readlines = split /\n/, $result;
-    foreach my $readline (@readlines) {
+    open my $fh, "-|", $cmd or die "Cannot run $cmd: $!";
+    while (my $readline = <$fh>) {
 	chomp $readline;
 	my %metadata;
 	$metadata{'BioProject'} = $bp;
