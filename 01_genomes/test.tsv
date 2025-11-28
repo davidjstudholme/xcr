@@ -1,5 +1,5 @@
-AssemblyAccession	AssemblyAccession	AssemblyName	Organism	SpeciesTaxid	WGS	BioSampleAccn	ContigN50	Coverage	Strain	Pathovar	Owner
-ASM5129531v1	ASM5129531v1	Xanthomonas campestris pv. incanae (g-proteobacteria)	339	SAMN46233412	5189114	103	EBI
-Xanthomonas campestris pv. incanae (g-proteobacteria)	Xanthomonas campestris pv. incanae (g-proteobacteria)	339	JAWXXH01	SAMN38254810	86830	70	I441	incanae	The Ohio State University
-339	339	JAWXXF01	SAMN38254812	92453	73	I443	incanae	The Ohio State University
-JAWXXG01	JAWXXG01	SAMN38254811	94425	100	I442	incanae	The Ohio State University
+AssemblyAccession	AssemblyName	Organism	SpeciesTaxid	WGS	BioSampleAccn	ContigN50	Coverage	Strain	Pathovar	Owner
+GCF_051295315.1	ASM5129531v1	Xanthomonas campestris pv. incanae (g-proteobacteria)	339	SAMN46233412	5189114	103	EBI
+GCF_033845265.1	ASM3384526v1	Xanthomonas campestris pv. incanae (g-proteobacteria)	339	JAWXXH01	SAMN38254810	86830	70	I441	incanae	The Ohio State University
+GCF_033845225.1	ASM3384522v1	Xanthomonas campestris pv. incanae (g-proteobacteria)	339	JAWXXF01	SAMN38254812	92453	73	I443	incanae	The Ohio State University
+GCF_033845235.1	ASM3384523v1	Xanthomonas campestris pv. incanae (g-proteobacteria)	339	JAWXXG01	SAMN38254811	94425	100	I442	incanae	The Ohio State University

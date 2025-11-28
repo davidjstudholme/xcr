@@ -94,7 +94,7 @@ foreach my $metadata_ref (@assemblies) {
 
 ### Print header line
 my @elements_tmp = (@elements, 'Strain', 'Pathovar', 'Owner');
-my $first_element = shift @elements;
+my $first_element = shift @elements_tmp;
 print "$first_element";
 foreach my $element (@elements_tmp) {
     print "\t$element";
@@ -104,7 +104,7 @@ print "\n";
 ### List the assemblies
 foreach my $metadata_ref (@assemblies) {
     my @elements_tmp = (@elements, 'Strain', 'Pathovar', 'Owner');
-    my $first_element = shift @elements;
+    my $first_element = shift @elements_tmp;
     print "$$metadata_ref{$first_element}";
     foreach my $element (@elements_tmp) {
 	if (defined $$metadata_ref{$element}) {
