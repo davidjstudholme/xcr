@@ -43,7 +43,7 @@ foreach my $bp (@bioprojects) {
 	$metadata{'BioProject'} = $bp;
 	my @fields = split /\t/, $readline, -1;
 	foreach my $element (@elements) {
-	    $metadata{$element} = shift @fields;
+	    $metadata{$element} = shift @fields // "";
 	}
 	push @assemblies, \%metadata;
     }
