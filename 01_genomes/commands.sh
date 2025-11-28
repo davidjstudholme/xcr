@@ -4,6 +4,8 @@ export PATH=${HOME}/edirect:${PATH}
 
 ./get_genomes.pl PRJNA1209959 PRJNA1040293 > test.tsv
 
+./get_genomes.pl PRJNA1209959 PRJNA1040293 PRJNA991952 PRJNA689092 PRJNA185979 PRJNA185977 PRJNA991952 
+
 ### Illustrative commands:
 
 ### Generate a table of assemblies
