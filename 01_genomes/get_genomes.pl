@@ -40,6 +40,13 @@ foreach my $bp (@bioprojects) {
 	my %metadata;
 	$metadata{'BioProject'} = $bp;
 	my @fields = split /\t/, $readline, -1;
+
+	if (@fields != @elements) {
+	    warn "WARNING: Field count mismatch for BioProject $bp\n";
+	    warn "Expected: " . scalar(@elements) . ", got: " . scalar(@fields) . "\n";
+	    warn "Line content: '$readline'\n";
+	}
+
 	foreach my $element (@elements) {
 	    $metadata{$element} = shift @fields // "";
 	}
