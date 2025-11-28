@@ -15,6 +15,7 @@ my @bioprojects = @ARGV;
 ### Define which elements of assembly metadata will be queried
 my @elements = qw(AssemblyAccession
 		  AssemblyName
+		  WGS
 		  Organism
 		  SpeciesTaxid
 		  BioSampleAccn
@@ -113,6 +114,8 @@ foreach my $metadata_ref (@assemblies) {
     foreach my $element (@elements_tmp) {
 	if (defined $$metadata_ref{$element}) {
 	    print "\t$$metadata_ref{$element}";
+	} else {
+	    print "\t";
 	}
     }
     print "\n";
