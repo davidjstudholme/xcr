@@ -15,7 +15,6 @@ my @bioprojects = @ARGV;
 ### Define which elements of assembly metadata will be queried
 my @elements = qw(AssemblyAccession
 		  AssemblyName
-		  WGS
 		  Organism
 		  SpeciesTaxid
 		  BioSampleAccn
