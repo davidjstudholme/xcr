@@ -6,7 +6,7 @@ use warnings ;
 if (@ARGV) {
     warn "Will get assemblies for these BioProjects: @ARGV\n";
 } else {
-    die "Usage $0 <list of BioProjects e.g. PRJNA1209959 PRJNA1040293 PRJNA991952 PRJNA689092 PRJNA185979 PRJNA185977>\n";
+    die "Usage $0 <list of BioProjects e.g. PRJNA1209959 PRJNA1040293>\n";
 }
 
 ### Define the BioProjects for inclusion
@@ -17,7 +17,6 @@ my @elements = qw(AssemblyAccession
 		  AssemblyName
 		  Organism
 		  SpeciesTaxid
-		  WGS
 		  BioSampleAccn
 		  ContigN50
 		  Coverage);
