@@ -1,0 +1,603 @@
+
+Running self-nucmer on /data/djs217/PROJECTS/49_Xcr/03_workdir/files/WHRI_5212__NCPPB_528__campestris.fna
+[RUNNING:] nucmer --maxmatch --nosimplify --prefix=seq_seq2413933 /data/djs217/PROJECTS/49_Xcr/03_workdir/files/WHRI_5212__NCPPB_528__campestris.fna /data/djs217/PROJECTS/49_Xcr/03_workdir/files/WHRI_5212__NCPPB_528__campestris.fna 2>/dev/null
+[RUNNING:] show-coords -r -I 97 -L 75 -T seq_seq2413933.delta | awk '$1 != $3 || $2 != $4 && $8==$9 {print}' > seq_seq2413933.coords
+
+Repeat coords for all references found.
+Self-NUCmer complete
+==================================================================
+Aligning to the reference genome /data/djs217/PROJECTS/49_Xcr/03_workdir/files/WHRI_5212__NCPPB_528__campestris.fna
+
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_5212__NCPPB_528__campestris
+
+NUCmer on all reference genomes complete.
+==================================================================
+
+runContigNUCmer.pl -r /data/djs217/PROJECTS/49_Xcr/03_workdir/files/WHRI_5212__NCPPB_528__campestris.fna -q /data/djs217/PROJECTS/49_Xcr/03_workdir -d /data/djs217/PROJECTS/49_Xcr/03_workdir/results -l /data/djs217/PROJECTS/49_Xcr/03_workdir/contigs_list.txt -t 1 -y 2 2>>/data/djs217/PROJECTS/49_Xcr/03_workdir/results/xcr_project_fastree.error >> /data/djs217/PROJECTS/49_Xcr/03_workdir/results/xcr_project_fastree.log
+
+
+Using given reference:  /data/djs217/PROJECTS/49_Xcr/03_workdir/files/WHRI_5212__NCPPB_528__campestris.fna
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_7277_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8022C_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8468A_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_6084_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8078_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8404_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8980_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8794_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_7275_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_7945_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8460B_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_5176_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8879_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8789_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8449A_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8758_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_7807_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8329_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8721_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8801_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_6047_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_10019A_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_7071_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8348_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_6063_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_6380_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_7283_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8709_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_10020A_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_6069_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8310_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_10042_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_6073_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8836_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_6044_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8759_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8021_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_6379_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_10024A_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8648_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_6048_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8807_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_3819A_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_5494A_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_6045_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_3880_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_6191_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8841_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_6413_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_10033A_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_6062_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8837_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_7943_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_10021B_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_6074_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8436_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_7074_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_5190_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8463A_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8541_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8023C_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_5487_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_6054_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8403_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8894_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8462A_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8856_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8968_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_7761_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8800_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8779_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_6022A_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_3843B_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_10018A_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8443B_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8337B_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_6089_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_3830A_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8737_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8441A_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8618_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_7779_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_6368_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_6049_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8452A_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8471_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_5485_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_3811_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8434_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_3974A_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8806_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8127_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_3877_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8688_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_7944_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_10034B_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8979_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_6367_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_6046_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_6056_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_6366_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8840_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_6050_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_7294_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_7260_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_6188_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8653_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_7806_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_3883_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_7776_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8622_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_3876_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8838_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8020C_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_7289_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8808_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_6075_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_10040_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_6369_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_10035A_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8412_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_6412_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_6182_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_6312A_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_6189_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8668_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_7279_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_6066_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8333_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_7809_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_7292_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_7787_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8662_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_3973A_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_3851A_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_7234_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_6053_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8650_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_7264_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8322_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_7262_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_7273_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_6070_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8497_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_738C_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8788_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_3820A_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8816_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8429A_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8453B_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_6180_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8416A_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_6081_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_6061_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_6071_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8578_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8746_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8444A_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_6059_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8596_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_6082_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8713_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_6184_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8401_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8330_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_7810_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8966_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_10018B_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_6087_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8763_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8500_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8544_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8387_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_6083_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8981_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8430_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_6187_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_3873_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_6051_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_6055_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_7240_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_7284_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_6136_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8646_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8730_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_6064_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8020A_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_6058_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_7072_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_7795_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8459B_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8450B_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_6381_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_6196_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8063_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_7803_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8458A_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_7782_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8423A_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_6068_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_7797_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_6065_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8469_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8795_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_3971A_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_6309A_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_6072_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8572_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8839_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8447A_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8733_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_7285_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_6192_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8454A_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8820_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_6085_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8372_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8463B_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8446_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_10030A_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8320_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_7281_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_6498_raphani_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_3818A_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8409_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8976_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_10062A_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8346_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8023A_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8420A_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_3975A_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8323_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8374_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_6052_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_6024A_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_6077_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_6067_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8804_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_6076_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_7290_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_7657_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8978_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_6181_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_10061_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8868_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_7942_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_10019C_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8332_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_6186_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8857_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_6382_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_7230_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8892A_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_7805_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_10023A_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8895_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_10021A_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_7808_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8022A_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_6086_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_6183_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8377_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_3832A_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8975A_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_6057_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8539_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_3836E_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_6090_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8450A_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_5219_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_7286_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_6185_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8952A_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_7804_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8629_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8402_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8455A_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8414A_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_6383_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8405_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_3964_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_8448A_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_7287_campestris_contig
+Running nucmer on WHRI_5212__NCPPB_528__campestris_WHRI_6194_campestris_contig
+NUCmer on all contig/draft genomes complete.
+
+
+buildSNPDB.pl -i /data/djs217/PROJECTS/49_Xcr/03_workdir/results -r /data/djs217/PROJECTS/49_Xcr/03_workdir/files/WHRI_5212__NCPPB_528__campestris.fna -l /data/djs217/PROJECTS/49_Xcr/03_workdir/working_list.txt -p xcr_project_fastree -c 0 -g 0.1 2>>/data/djs217/PROJECTS/49_Xcr/03_workdir/results/xcr_project_fastree.error >> /data/djs217/PROJECTS/49_Xcr/03_workdir/results/xcr_project_fastree.log
+
+Reading Gaps file.
+WHRI_8450A_campestris_contig covered 0.95076 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_6090_campestris_contig covered 0.93368 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8441A_campestris_contig covered 0.93671 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_6086_campestris_contig covered 0.93691 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8980_campestris_contig covered 0.96494 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8454A_campestris_contig covered 0.94250 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_7290_campestris_contig covered 0.95924 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_10019A_campestris_contig covered 0.93944 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_6366_campestris_contig covered 0.97035 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8737_campestris_contig covered 0.92821 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8840_campestris_contig covered 0.96940 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_7810_campestris_contig covered 0.93400 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8836_campestris_contig covered 0.93645 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_7072_campestris_contig covered 0.93399 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8320_campestris_contig covered 0.95899 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+REPEATS covered 0.99008 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_6044_campestris_contig covered 0.93799 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8377_campestris_contig covered 0.93715 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8420A_campestris_contig covered 0.93622 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_7230_campestris_contig covered 0.96472 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8446_campestris_contig covered 0.94826 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_7292_campestris_contig covered 0.93679 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_7809_campestris_contig covered 0.93692 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_5494A_campestris_contig covered 0.99227 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8447A_campestris_contig covered 0.93700 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_6075_campestris_contig covered 0.92674 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8471_campestris_contig covered 0.94799 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8405_campestris_contig covered 0.96136 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_3873_campestris_contig covered 0.93655 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_7779_campestris_contig covered 0.96468 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_6048_campestris_contig covered 0.92679 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8894_campestris_contig covered 0.95001 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_6187_campestris_contig covered 0.95574 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8348_campestris_contig covered 0.93695 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_3820A_campestris_contig covered 0.97282 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8541_campestris_contig covered 0.93630 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_3830A_campestris_contig covered 0.97278 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8572_campestris_contig covered 0.97033 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_6069_campestris_contig covered 0.92681 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8975A_campestris_contig covered 0.96282 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8892A_campestris_contig covered 0.96522 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8856_campestris_contig covered 0.93811 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_7795_campestris_contig covered 0.92926 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8976_campestris_contig covered 0.93788 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8460B_campestris_contig covered 0.95178 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_6081_campestris_contig covered 0.93715 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8337B_campestris_contig covered 0.88007 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_6188_campestris_contig covered 0.95704 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_3971A_campestris_contig covered 0.93686 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_6073_campestris_contig covered 0.93807 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8838_campestris_contig covered 0.98137 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8449A_campestris_contig covered 0.95866 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_7945_campestris_contig covered 0.26911 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8434_campestris_contig covered 0.93688 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_3877_campestris_contig covered 0.94114 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_6055_campestris_contig covered 0.93598 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8329_campestris_contig covered 0.99230 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_7943_campestris_contig covered 0.87120 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8450B_campestris_contig covered 0.94571 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_6087_campestris_contig covered 0.96341 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8788_campestris_contig covered 0.96600 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_7264_campestris_contig covered 0.93324 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_7782_campestris_contig covered 0.97909 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_6049_campestris_contig covered 0.93660 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8401_campestris_contig covered 0.92843 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_7283_campestris_contig covered 0.93505 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8404_campestris_contig covered 0.94240 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8622_campestris_contig covered 0.93770 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_6382_campestris_contig covered 0.96542 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_7285_campestris_contig covered 0.93642 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_6077_campestris_contig covered 0.92701 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_3973A_campestris_contig covered 0.93693 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_5190_campestris_contig covered 0.95775 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_7807_campestris_contig covered 0.99179 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8688_campestris_contig covered 0.95685 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_6191_campestris_contig covered 0.92678 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8402_campestris_contig covered 0.93555 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8387_campestris_contig covered 0.93641 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_6064_campestris_contig covered 0.94837 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_6312A_campestris_contig covered 0.97155 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_3818A_campestris_contig covered 0.93707 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_6056_campestris_contig covered 0.92682 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_7284_campestris_contig covered 0.93650 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8820_campestris_contig covered 0.95877 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8444A_campestris_contig covered 0.94860 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_6051_campestris_contig covered 0.93810 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_3964_campestris_contig covered 0.93909 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_10034B_campestris_contig covered 0.93676 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_10040_campestris_contig covered 0.95665 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8709_campestris_contig covered 0.92933 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_6180_campestris_contig covered 0.93566 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8463B_campestris_contig covered 0.95751 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8346_campestris_contig covered 0.93695 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_6367_campestris_contig covered 0.92697 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8966_campestris_contig covered 0.93778 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_10030A_campestris_contig covered 0.96152 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8646_campestris_contig covered 0.93843 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_7262_campestris_contig covered 0.93441 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_3880_campestris_contig covered 0.96255 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8453B_campestris_contig covered 0.93939 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_7944_campestris_contig covered 0.82178 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8779_campestris_contig covered 0.92738 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_7776_campestris_contig covered 0.92862 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_6058_campestris_contig covered 0.93601 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8372_campestris_contig covered 0.93579 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8968_campestris_contig covered 0.93744 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8063_campestris_contig covered 0.95882 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8721_campestris_contig covered 0.93567 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_6380_campestris_contig covered 0.98936 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_7797_campestris_contig covered 0.92648 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8023C_campestris_contig covered 0.93802 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_3883_campestris_contig covered 0.96815 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8332_campestris_contig covered 0.95852 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_6083_campestris_contig covered 0.93709 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_3876_campestris_contig covered 0.93719 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8794_campestris_contig covered 0.92750 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_3819A_campestris_contig covered 0.93593 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8629_campestris_contig covered 0.93687 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_7294_campestris_contig covered 0.93713 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_10062A_campestris_contig covered 0.93855 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_6074_campestris_contig covered 0.92694 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_6196_campestris_contig covered 0.96635 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8763_campestris_contig covered 0.96427 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_6050_campestris_contig covered 0.93867 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8981_campestris_contig covered 0.96485 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_3836E_campestris_contig covered 0.95495 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8023A_campestris_contig covered 0.94520 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8022A_campestris_contig covered 0.93600 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8412_campestris_contig covered 0.92989 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_10033A_campestris_contig covered 0.93802 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_7657_campestris_contig covered 0.93696 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8879_campestris_contig covered 0.96092 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8746_campestris_contig covered 0.93902 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8430_campestris_contig covered 0.94074 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8795_campestris_contig covered 0.93534 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8808_campestris_contig covered 0.94775 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_6071_campestris_contig covered 0.93800 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_6085_campestris_contig covered 0.94057 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_6412_campestris_contig covered 0.95810 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8436_campestris_contig covered 0.94059 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_7761_campestris_contig covered 0.94129 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_7808_campestris_contig covered 0.93909 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8330_campestris_contig covered 0.93726 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_7804_campestris_contig covered 0.93663 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8539_campestris_contig covered 0.93724 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8841_campestris_contig covered 0.96019 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8837_campestris_contig covered 0.93709 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8022C_campestris_contig covered 0.92819 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8868_campestris_contig covered 0.92783 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8759_campestris_contig covered 0.96508 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8452A_campestris_contig covered 0.93725 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_10020A_campestris_contig covered 0.93768 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8713_campestris_contig covered 0.95886 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_7286_campestris_contig covered 0.93726 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_6053_campestris_contig covered 0.93796 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_6059_campestris_contig covered 0.93803 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_6047_campestris_contig covered 0.93876 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_3811_campestris_contig covered 0.93662 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8668_campestris_contig covered 0.92765 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_7234_campestris_contig covered 0.95669 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_6072_campestris_contig covered 0.93801 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8443B_campestris_contig covered 0.96494 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8800_campestris_contig covered 0.92562 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_7071_campestris_contig covered 0.93407 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_6383_campestris_contig covered 0.58363 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_5219_campestris_contig covered 0.92047 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_10061_campestris_contig covered 0.93901 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_6084_campestris_contig covered 0.94051 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_7805_campestris_contig covered 0.93535 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8653_campestris_contig covered 0.92837 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_5176_campestris_contig covered 0.93589 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_6022A_campestris_contig covered 0.97934 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_10021A_campestris_contig covered 0.93747 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_6063_campestris_contig covered 0.93796 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_10023A_campestris_contig covered 0.93756 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8448A_campestris_contig covered 0.95052 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_6061_campestris_contig covered 0.92675 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8648_campestris_contig covered 0.92732 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_10018A_campestris_contig covered 0.93651 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_6183_campestris_contig covered 0.93259 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_3832A_campestris_contig covered 0.97283 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_6136_campestris_contig covered 0.92792 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_7279_campestris_contig covered 0.93126 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8414A_campestris_contig covered 0.93461 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8310_campestris_contig covered 0.93682 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_6062_campestris_contig covered 0.93797 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_6498_raphani_contig covered 0.72872 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_7275_campestris_contig covered 0.93085 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_6189_campestris_contig covered 0.95642 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8662_campestris_contig covered 0.96773 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_738C_campestris_contig covered 0.95749 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_6368_campestris_contig covered 0.95767 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_6309A_campestris_contig covered 0.92574 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_6369_campestris_contig covered 0.92687 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8807_campestris_contig covered 0.94511 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_3843B_campestris_contig covered 0.99207 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_6054_campestris_contig covered 0.93792 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8816_campestris_contig covered 0.92434 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_7287_campestris_contig covered 0.93635 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8423A_campestris_contig covered 0.92905 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8429A_campestris_contig covered 0.94426 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8020C_campestris_contig covered 0.92719 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_10035A_campestris_contig covered 0.93775 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8979_campestris_contig covered 0.95605 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_7803_campestris_contig covered 0.90681 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8020A_campestris_contig covered 0.92935 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8500_campestris_contig covered 0.93605 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_5212__NCPPB_528__campestris covered 0.99996 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8758_campestris_contig covered 0.93764 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8895_campestris_contig covered 0.96524 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_6068_campestris_contig covered 0.93790 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8409_campestris_contig covered 0.97673 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8618_campestris_contig covered 0.93993 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_6413_campestris_contig covered 0.93666 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_10042_campestris_contig covered 0.92461 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_7806_campestris_contig covered 0.93838 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_6066_campestris_contig covered 0.92710 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8857_campestris_contig covered 0.94079 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_7240_campestris_contig covered 0.93417 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8127_campestris_contig covered 0.93686 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8468A_campestris_contig covered 0.95917 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8952A_campestris_contig covered 0.96469 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_10018B_campestris_contig covered 0.94055 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8839_campestris_contig covered 0.98143 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_6186_campestris_contig covered 0.92787 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8333_campestris_contig covered 0.93597 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_6192_campestris_contig covered 0.96120 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_6057_campestris_contig covered 0.93650 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_6070_campestris_contig covered 0.93801 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8578_campestris_contig covered 0.97024 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_6045_campestris_contig covered 0.92665 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8403_campestris_contig covered 0.94328 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_6082_campestris_contig covered 0.95865 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_7289_campestris_contig covered 0.96731 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_10024A_campestris_contig covered 0.92977 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_7260_campestris_contig covered 0.93527 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8462A_campestris_contig covered 0.93709 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_6181_campestris_contig covered 0.92568 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_7074_campestris_contig covered 0.93385 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_6024A_campestris_contig covered 0.93974 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8455A_campestris_contig covered 0.93698 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_7787_campestris_contig covered 0.97832 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8374_campestris_contig covered 0.93693 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_6182_campestris_contig covered 0.93312 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8978_campestris_contig covered 0.93890 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8801_campestris_contig covered 0.93917 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_5485_campestris_contig covered 0.95857 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8804_campestris_contig covered 0.93670 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8544_campestris_contig covered 0.93703 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_7273_campestris_contig covered 0.95578 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8733_campestris_contig covered 0.96890 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_6089_campestris_contig covered 0.93441 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8463A_campestris_contig covered 0.95750 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_6067_campestris_contig covered 0.95854 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8650_campestris_contig covered 0.93758 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8806_campestris_contig covered 0.94398 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_6185_campestris_contig covered 0.92119 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_7277_campestris_contig covered 0.93020 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8497_campestris_contig covered 0.93712 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_3975A_campestris_contig covered 0.98717 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8078_campestris_contig covered 0.93701 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8416A_campestris_contig covered 0.92777 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8021_campestris_contig covered 0.92924 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_7281_campestris_contig covered 0.96418 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_6076_campestris_contig covered 0.92700 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8469_campestris_contig covered 0.93869 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_3851A_campestris_contig covered 0.98779 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8596_campestris_contig covered 0.92745 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_6379_campestris_contig covered 0.96187 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8323_campestris_contig covered 0.93703 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8322_campestris_contig covered 0.93717 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_10019C_campestris_contig covered 0.93804 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_10021B_campestris_contig covered 0.93574 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_7942_campestris_contig covered 0.87177 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_3974A_campestris_contig covered 0.93694 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_5487_campestris_contig covered 0.93696 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8459B_campestris_contig covered 0.94465 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8458A_campestris_contig covered 0.94471 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8789_campestris_contig covered 0.92890 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_6046_campestris_contig covered 0.93868 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_6194_campestris_contig covered 0.95784 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_6381_campestris_contig covered 0.93102 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_6184_campestris_contig covered 0.93825 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_6052_campestris_contig covered 0.93773 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_6065_campestris_contig covered 0.93663 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8730_campestris_contig covered 0.93780 of the WHRI_5212__NCPPB_528__campestris (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Printing Summary Statistics.
+Creating SNP alignment.
+Creating SNP stats file. 
+SNP alignment complete.
+Reconstructing phylogeny using FastTree
+export OMP_NUM_THREADS=1; FastTree -quiet -nt -gtr < /data/djs217/PROJECTS/49_Xcr/03_workdir/results/xcr_project_fastree_all_snp_alignment.fna > /data/djs217/PROJECTS/49_Xcr/03_workdir/results/xcr_project_fastree_all.fasttree 2>>/data/djs217/PROJECTS/49_Xcr/03_workdir/results/xcr_project_fastree.error 
+
+Tree phylogeny complete.
