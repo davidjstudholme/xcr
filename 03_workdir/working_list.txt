@@ -110,7 +110,6 @@ WHRI_6379_campestris_contig
 WHRI_6380_campestris_contig
 WHRI_6381_campestris_contig
 WHRI_6382_campestris_contig
-WHRI_6383_campestris_contig
 WHRI_6412_campestris_contig
 WHRI_6413_campestris_contig
 WHRI_6498_raphani_contig
