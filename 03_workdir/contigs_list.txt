@@ -124,7 +124,6 @@ WHRI_7262_campestris_contig
 WHRI_7264_campestris_contig
 WHRI_7273_campestris_contig
 WHRI_7275_campestris_contig
-WHRI_7277_campestris_contig
 WHRI_7279_campestris_contig
 WHRI_7281_campestris_contig
 WHRI_7283_campestris_contig
@@ -156,7 +155,6 @@ WHRI_7810_campestris_contig
 WHRI_7942_campestris_contig
 WHRI_7943_campestris_contig
 WHRI_7944_campestris_contig
-WHRI_7945_campestris_contig
 WHRI_8020A_campestris_contig
 WHRI_8020C_campestris_contig
 WHRI_8021_campestris_contig
