@@ -9,9 +9,13 @@ my $genomes_list_file = './genomes.txt';
 my %assembly_accessions;
 open my $fh, "<", $genomes_list_file or die "Cannot open file 'genomes_list_file': $!";
 while (<$fh>) {
-    if (m/(GC[AF]_\d+\.\d+)/) {
-	warn $1;
-	$assembly_accessions{$1}++;
+    if (m/^\#/) {
+	warn "Ignore $_\n";
+    } else {     
+	if  (m/(GC[AF]_\d+\.\d+)/) {
+	    warn $1;
+	    $assembly_accessions{$1}++;
+	}
     }
 }
 
@@ -96,12 +100,13 @@ foreach my $metadata_ref (@assemblies) {
     warn "\tOwner=$owner\n";
     $$metadata_ref{'Owner'} = $owner;
 
-    ### Get owner
+    ### Get BioProject Link(s)
     $cmd = "esearch -db biosample -query $$metadata_ref{'BioSampleAccn'} | \
            efetch -format docsum | \ 
            xtract -pattern Links -element Link";
     $result = `$cmd`;
     chomp $result;
+    $result =~ s/\t/ /g; # Remove any internal tab characters that might arise form there being multiple links
     my $link = $result;
     warn "\tLink=$link\n";
     $$metadata_ref{'Link'} = $link;
